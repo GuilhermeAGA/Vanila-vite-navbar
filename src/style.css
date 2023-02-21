@@ -1,0 +1,88 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: inherit;
+  box-sizing: border-box;
+}
+
+
+/* main Menu */
+.main-navbar {
+  width: 100%;
+  height: auto;
+  background: #2c2828;
+}
+
+/* Parm fixed navbar topside page */
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+/* main Container */
+.main-navbar .menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 64px;
+  align-items: center;
+}
+
+/* Menu Logo */
+.main-navbar .menu-container img {
+  height: 64px;
+}
+
+/* Menu Itens */
+.main-navbar .menu-container .menu-item {
+  display: flex;
+  gap: 48px;
+}
+
+.main-navbar .menu-container .menu-item .item-link {
+  color: #c0c0c0;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.33s;
+
+}
+
+.main-navbar .menu-container .menu-item .item-link:hover {
+  color: #04D361;
+  font-weight: 600;
+}
+
+/* Menu Social Icons */
+.main-navbar .menu-container .menu-social-icon {
+  display: flex;
+  gap: 16px;
+}
+
+.main-navbar .menu-container .menu-social-icon .social-icon-link {
+  color: #c0c0c0;
+  font-size: 24px;
+  display: flex;
+}
+
+.main-navbar .menu-container .menu-social-icon .social-icon-link:hover {
+  color: #81D8F7;
+}
+
+
+
+
+
+
