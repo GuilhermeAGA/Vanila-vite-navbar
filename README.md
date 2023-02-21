@@ -1,10 +1,11 @@
 <h1 align="center">Vite-vanila Navbar</h1>
 
-<p align="center">
-  Navbar simples
-</p>
-
 <br>
+
+## 💻 Descrição
+
+Essa navbar foi criada com o intuito de praticar meus conhecimentos nas técnologias basicas geralmente utilizadas no frontend.
+
 
 ## 🚀 Tecnologias Utilizadas!
 
